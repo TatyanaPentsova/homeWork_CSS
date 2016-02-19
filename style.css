@@ -1,0 +1,98 @@
+body{
+    background-color: dimGray;
+   } 
+aside {
+	background: #c0c0c0;
+	border-radius: 10px;
+	float: right;
+	width:250px;
+	padding-left:1px;
+	margin: 1%;
+   }
+header{
+	border-radius: 10px;
+	border: 1px solid white;
+	margin:0% 20%;
+	padding: 0px 20px;
+	height: 140px;
+	background-color: white;
+   }
+div{
+	border-radius: 10px;
+	border: 1px solid white;
+	margin: 0% 20%;
+	padding: 0px 10px;
+	background-color: white;
+   }
+footer{
+	   border-radius: 10px;
+       border: 1px solid white;
+       margin: 0% 20%;
+       padding: 0px 10px;
+	   text-align: center;
+	   background-color: white;
+   }
+ul,li {
+	   margin:0;
+	   padding:0;
+	   list-style-type:none;
+	   background:white;
+   }
+.list {
+		border-radius: 10px;
+	   border: 1px solid black;
+	   margin: 0% 20%;
+       padding: 0px 5px;
+	 }
+#menu {
+	   display:block;
+	   position:absolute;
+	   top:130px;
+	   left:520px;
+   }
+#menu > li {
+	   display:inline-block;
+	   height:20px;
+	   position:relative;
+   }
+#menu > li > ul {
+	   position:absolute;
+	   top:20px;
+	   display:none;
+   }
+#menu > li:hover > ul {
+	   display:block;
+   }
+input {
+	width: 50px;
+   height: 20px;
+   border-radius: 2px;
+   border: 1px solid gray;
+   }
+.zero{
+	width:106px;
+	height:20px;
+	   
+   }
+   .res{
+	width:50px;
+	height:44px;
+   }
+   .answer{
+	   width: 265px;
+   height: 30px;
+	   border-radius: 2px;
+   border: 1px solid gray;
+   }
+   .calc {
+	   padding-left:20%;
+	   padding-right:30%;
+	   padding-top:1%
+   }
+   .num {
+	   border-radius: 2px;
+       border: 1px solid gray;
+   }
+   .test {
+	   line-height:;
+   }
